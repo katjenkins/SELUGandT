@@ -7,13 +7,10 @@ Feel free to work in groups, and discuss the assignments as needed. However, I d
 1. Matching: On LONI, when I log in, I am located in my _b. user home_. I should store my data in the _a. /work/_ system, which has a 60 day storage limit. I should run computations 
 in the _a. /work/_, and not in the _b. user home_.
 
-	a. /work/  
-	b. user home
-
 2. If I wanted to view the files in my home directory, but I am located in my work directory, I would use: c. ls ~/   
 	a. ls  
 	b. ls -F  
-	c. ls ~/ 
+	c. ls ~/
 	
 3. In your own words, what does the correct command in question two do?
 	The command "ls ~/" lists all of the files and directories in the home directory.
@@ -34,5 +31,3 @@ git add readme
 git commit -m "adding my readme file!"
 git push
 ```
-	The problem is that the file "readme" was not saved as a specific file type, it was just a nano document. In order to push it to the repository you would have to save it as a 
-".md" or ".txt"...at least I think so. 
